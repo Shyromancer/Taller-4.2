@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b775ea15-02fa-4246-a9d0-add46ecc183f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Cartas/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/monsters.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bases/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bases/Juego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bases/JuegoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bases/JuegoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cartas/Cofre/Cofre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cartas/Cofre/Cofre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cartas/Cofre/CofreDiamante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cartas/Cofre/CofreNormal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cartas/Cofre/CofrePlata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cartas/Monstruo/Monstruo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cartas/Monstruo/Monstruo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cartas/Monstruo/MonstruoAgua.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cartas/Monstruo/MonstruoAgua.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cartas/Monstruo/MonstruoElectrico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cartas/Monstruo/MonstruoElectrico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cartas/Monstruo/MonstruoFuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cartas/Monstruo/MonstruoFuego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cartas/Monstruo/MonstruoLegendario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cartas/Monstruo/MonstruoLegendario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cartas/Monstruo/MonstruoNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cartas/Monstruo/MonstruoNormal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cartas/Monstruo/MonstruoVolador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cartas/Monstruo/MonstruoVolador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2Z8jzSMDNVWGJIR2ZaLBGlaMpdF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/lazos/Desktop/ORIGINAL TALLER 43/Taller 4"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b775ea15-02fa-4246-a9d0-add46ecc183f" name="Changes" comment="" />
+      <created>1701810862817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701810862817</updated>
+    </task>
+    <servers />
+  </component>
+</project>

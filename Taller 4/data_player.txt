@@ -1,0 +1,5 @@
+ /  / null / null
+0 ; Normal ; 300000
+0 ; Normal ; 300000
+0 ; Normal ; 300000
+0 ; Normal ; 300000

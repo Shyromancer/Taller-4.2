@@ -1,0 +1,144 @@
+@startuml
+
+
+
+
+ interface Juego{
+    +cargarDatos() : void
+    +mostrarMenuPrincipal() : void
+    +void guardarDatos() : void
+
+
+
+}
+JuegoImpl <|-- Juego
+
+
+class JuegoImpl {
+    - cartasDelJugador: List<Monstruo>
+    - cofresDelJugador: List<Cofre>
+    - nombreJugador: String
+    - cofresAbiertos: int
+    - cofresDisponibles: int
+
+    + mostrarMenuPrincipal(): void
+    + mostrarCartasDelJugador(): void
+    + mostrarTodasLasCartas(): void
+    + gestionarCofres(): void
+    + abrirCofre(): void
+    + obtenerCartasDelCofre(): List<Monstruo>
+    + guardarDatos(): void
+    - cargarDatos(): void
+    - generarCofreAleatorio(): Cofre
+    - generarCofreNormal(): Cofre
+    - generarCofrePlata(): Cofre
+    - generarCofreDiamante(): Cofre
+    - generarMonstruoNormal(): MonstruoNormal
+    - generarMonstruoAgua(): MonstruoAgua
+    - generarMonstruoFuego(): MonstruoFuego
+    - generarMonstruoElectrico(): MonstruoElectrico
+    - generarMonstruoVolador(): MonstruoVolador
+    - generarMonstruoLegendario(): MonstruoLegendario
+}
+
+abstract class  Monstruo {
+    - nombre: String
+    - hp: int
+    - genero: String
+    +getters y setters
+}
+
+class MonstruoAgua{
+ - TipoChorro: int
+}
+enum TipoChorro{
+    Débil
+    Normal
+    Fuerte
+
+}
+MonstruoAgua --* TipoChorro
+
+class MonstruoElectrico{
+    - CargaElectrica: boolean
+}
+enum Carga{
+    SI
+    NO
+
+}
+MonstruoElectrico --* Carga
+
+
+
+class MonstruoFuego{
+    - longitudLlamarada: int
+
+}
+
+class MonstruoLegendario{
+
+}
+enum SuperPoder{
+    Invisibilidad
+    Teletransportación
+    Super Golpe
+
+}
+MonstruoLegendario --* SuperPoder
+
+
+class MonstruoNormal{
+
+}
+enum Genero{
+    Macho
+    Hembra
+    Desconocido
+
+}
+MonstruoNormal --* Genero
+
+
+
+class MonstruoVolador{
+    -durezaAlas: String
+}
+enum durezaAlas{
+    Muy fuertes
+    Fuerte
+    Normal
+
+}
+MonstruoVolador --* durezaAlas
+
+
+
+Monstruo <|-- MonstruoAgua
+Monstruo <|-- MonstruoElectrico
+Monstruo <|-- MonstruoFuego
+Monstruo <|-- MonstruoLegendario
+Monstruo <|-- MonstruoNormal
+Monstruo <|-- MonstruoVolador
+
+
+class Cofre {
+    - id: int
+    - tipo: String
+    - tiempoApertura: int
+    + abrir(): void
+    + obtenerCartas(): List<Monstruo>
+    + getters y setters
+}
+enum TipoCofres{
+    Normal
+    Plata
+    Diamante
+
+}
+Cofre --* TipoCofres
+
+JuegoImpl <-- Monstruo
+JuegoImpl <-- Cofre
+
+@enduml
